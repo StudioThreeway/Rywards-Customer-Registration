@@ -9,6 +9,7 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 1440px;
+  min-height: 100vh;
   margin-right: auto;
   margin-left: auto;
   padding: 60px 0px 100px;
@@ -89,6 +90,7 @@
 }
 
 .text-block-3 {
+  margin-top: 140px;
   color: #fff;
   font-size: 6.75rem;
   line-height: 110%;
@@ -156,6 +158,7 @@
 
 .text-block-5 {
   margin-top: 60px;
+  margin-bottom: 60px;
   font-family: 'Sofia pro', sans-serif;
   font-size: 4.5rem;
   line-height: 110%;
@@ -378,6 +381,7 @@
   }
 
   .text-block-3 {
+    margin-top: 40px;
     background-color: transparent;
     font-size: 1.7rem;
   }
@@ -394,13 +398,14 @@
 
   .div-block-2 {
     width: 100%;
+    margin-top: 0px;
     padding-top: 40px;
   }
 
   .div-block-3 {
     width: 100%;
     max-width: 100%;
-    margin-top: -40px;
+    margin-top: 0px;
   }
 
   .text-block-5 {
