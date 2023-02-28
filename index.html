@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Feb 27 2023 17:21:58 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Feb 28 2023 10:12:31 GMT+0000 (Coordinated Universal Time)  -->
 <html
   data-wf-page="63fc54be2619d113c830c62c"
   data-wf-site="63fc54be2619d1eae730c62b"
@@ -94,12 +94,13 @@
             <div class="text-block-5">Sign up for rewarding future</div>
             <div class="form-block w-form">
               <form
-                netlify
+                data-netlify="true"
                 id="email-form"
                 name="email-form"
                 data-name="Email Form"
-                method="get"
+                method="POST"
                 class="form"
+                action="/registration-success.html/"
               >
                 <div class="email merchant">
                   <label for="email" class="field-label-form"
@@ -121,7 +122,7 @@
                   >
                   <div class="div-block-8">
                     <input
-                      type="text"
+                      type="number"
                       class="text-field-form country-code w-input"
                       maxlength="256"
                       name="Country-Code"
@@ -170,7 +171,7 @@
                 </div>
                 <div class="div-block-11">
                   <input
-                    type="email"
+                    type="text"
                     class="text-field-form w-input"
                     maxlength="256"
                     name="Personal-Address-2"
